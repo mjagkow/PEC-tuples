@@ -3,6 +3,7 @@
 #include <FWCore/Utilities/interface/InputTag.h>
 #include <FWCore/Utilities/interface/EDMException.h>
 #include <FWCore/Framework/interface/MakerMacros.h>
+#include <FWCore/Framework/interface/Run.h>
 
 #include <boost/regex.hpp>
 
