@@ -102,7 +102,20 @@ options.setType('outputFile', VarParsing.varType.string)
 options.setDefault('outputFile', 'sample.root')
 
 options.parseArguments()
-
+print "Arguments:"
+print "             globalTag: " + options.globalTag
+print "              channels: " + options.channels
+print "                jetSel: " + options.jetSel
+print "            processIDs: " + options.processIDs
+print "             runOnData: " + str(options.runOnData)
+print "          isPromptReco: " + str(options.isPromptReco)
+print "  disableTriggerFilter: " + str(options.disableTriggerFilter)
+print "    triggerProcessName: " + options.triggerProcessName
+print "     saveAltLHEWeights: " + str(options.saveAltLHEWeights)
+print "  labelLHEEventProduct: " + options.labelLHEEventProduct
+print "      saveGenParticles: " + str(options.saveGenParticles)
+print "           saveGenJets: " + str(options.saveGenJets)
+print ""
 
 # Make shortcuts to access some of the configuration options easily
 runOnData = options.runOnData
