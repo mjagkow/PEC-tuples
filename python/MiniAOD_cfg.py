@@ -286,6 +286,7 @@ apply_event_filters(
 # [1] /frozen/2016/25ns10e33/v2.1/HLT/V3
 triggerNames = [
     # Single-lepton paths
+    'Mu17', 'Mu27', 'Mu24_eta2p1', 'Mu20',
     'Mu45_eta2p1', 'Mu50', 'Mu55',
     'IsoMu20', 'IsoTkMu20', 'IsoMu22', 'IsoTkMu22', 'IsoMu22_eta2p1', 'IsoTkMu22_eta2p1',
     'IsoMu24', 'IsoTkMu24', 'IsoMu27', 'IsoTkMu27',
