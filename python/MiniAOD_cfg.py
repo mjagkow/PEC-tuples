@@ -56,7 +56,7 @@ options.register(
     'Leptonic channels to process'
 )
 options.register(
-    'jetSel', '', VarParsing.multiplicity.singleton, VarParsing.varType.string,
+    'jetSel', '2j30', VarParsing.multiplicity.singleton, VarParsing.varType.string,
     'Selection on jet pt and b-tagging discriminators'
 )
 options.register(
@@ -88,11 +88,11 @@ options.register(
     VarParsing.varType.string, 'Label to access LHEEventProduct'
 )
 options.register(
-    'saveGenParticles', False, VarParsing.multiplicity.singleton, VarParsing.varType.bool,
+    'saveGenParticles', True, VarParsing.multiplicity.singleton, VarParsing.varType.bool,
     'Save information about the hard(est) interaction and certain particles'
 )
 options.register(
-    'saveGenJets', False, VarParsing.multiplicity.singleton, VarParsing.varType.bool,
+    'saveGenJets', True, VarParsing.multiplicity.singleton, VarParsing.varType.bool,
     'Save information about generator-level jets'
 )
 
